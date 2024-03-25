@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    padding: 0.2rem;
+}
+
+.navbar{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-title{
+    font-size: 1.5rem;
+    color: #E8751A;
+    font-weight: bold;
+    transition: all 0.3s linear 0s;
+}
+
+.logo-title:hover{
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s linear 0s;
+}
+
+.nav-link:hover{
+    color: #E8751A
+}
+
+.Contact-button{
+    background-color: #E8751A;
+    padding: .7rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: all .5s linear 0s;
+}
+
+.Contact-button:hover{
+    transform: scale(1.15);
+}
+
+.main-header{
+    padding: 1rem 0;
+}
+
+.main-section{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 2rem 0;
+}
+
+.left-container{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#name{
+    color: #E8751A;
+}
+
+.hi{
+    color: #E8751A;
+}
+
+.para{
+    font-size: 1.3rem;
+}
+
+.About-button{
+    background-color: #E8751A;
+    padding: .7rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: all .5s linear 0s;
+}
+
+.About-button:hover{
+    transform: scale(1.15);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation: slideFromLeft 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes slideFromLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.circle{
+    position: absolute;
+    background-color: black;    
+    filter: blur(150px);
+    border-radius: 50%;
+    opacity: 1;
+    width: 300px;
+    height: 200px;
+    margin-top: 7rem;
+}
+
+.avatar-image{
+    height: 380px;
+    width: 250px;
+    position: relative;
+    transition: all .4s linear 0s;
+}
+
+.avatar-image:hover{
+    transform: scale(1.1)
+}
+
+.About-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 83%;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+.about{
+    background-color: gainsboro;
+    margin-top: 5rem;
+}
+
+.rightbox{
+    width: 60%;
+}
+
+.aboutinfobox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.abt{
+    color: #E8751A;
+}
+
+#abt-2nd{
+    color: #E8751A;
+}
+
+#AvatarImage{
+    height: 350px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px black;
+    transition: all .4s linear 0s;
+}
+
+#AvatarImage:hover{
+    transform: scale(1.1);
+}
+
+.ourservices{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem;
+}
+
+.services-cards{
+    display: flex;
+    gap: 2rem;
+}
+
+.service-image{
+    width: 50px;
+    height: 40px;
+}
+
+.ser-card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: gainsboro;
+    padding: 1.5rem;
+    text-align: center;
+    gap: 1rem;
+    box-shadow: 0px 1px 8px black;
+    transition: all .3s linear 0s;
+}
+
+.ser-card:hover{
+    transform: scale(1.07);
+    box-shadow: none;
+    border: 2px solid #E8751A;
+}
+
+.service-title{
+    color: #E8751A;
+    font-weight: bold;
+}
+
+.services-heading{
+    color: #E8751A;
+}
+
+.Skills{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+    padding: 1rem;
+    border-radius: 20px;
+    animation: slideFromLeft 2s ease forwards;
+}
+
+.skills-logo{
+    transition: all .3s linear 0s;
+}
+
+.skills-logo:hover{
+    transform: scale(1.4);
+}
+
+.contact-box-main{
+    width: 80%;
+    background-color: gainsboro;
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    gap: 4rem;
+    align-items: center;
+}
+
+.contact-heading{
+    color: #E8751A;
+    transition: all .3s linear 0s;    
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.contact-heading:hover{
+    color: black
+}
+
+.contact-box{
+    position: absolute;
+    background-color: gainsboro;
+    color: gray;
+    border-radius: 40px;
+    height: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+}
+
+.contact-button-over{
+    position: relative;
+    background-color: #E8751A;
+    border-radius: 40px;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s linear 0s;
+}
+
+.contact-button-over:hover{
+    transform: scale(1.1);
+}
+
+.placeholder{
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    padding: .8rem;
+    margin: 1rem 0;
+}
+
