@@ -8,36 +8,48 @@
   </head>
   <body>
     <div class="main-header">
-      <header class="navbar">
-        <a href="#Home" class="logo-title">Sannan Ahmad</a>
-        <nav class="nav-list">
-          <a href="#Home" class="nav-link">Home</a>
-          <a href="#About" class="nav-link">About</a>
-          <a href="#Services" class="nav-link">Services</a>
-          <a href="#Skills" class="nav-link">Skills</a>
-        </nav>
-        <button class="Contact-button" type="submit">Contact Me</button>
-      </header>
+      <div class="header-content">
+        <div class="logo-header">
+          <a href="#Home" class="logo-title">Sannan Ahmad</a>
+        </div>
+  
+          <nav class="nav-list">
+            <a href="#Home" class="nav-link">Home</a>
+            <a href="#About" class="nav-link">About</a>
+            <a href="#Services" class="nav-link">Services</a>
+            <a href="#Skills" class="nav-link">Skills</a>
+          </nav>
+
+          <button class="Contact-button" type="submit">Contact Me</button>  
+          
+          <button type="button" class="menu-button">
+            <img src="./Images/Hamburger.svg" alt="Menu Button" class="menu-icon">
+          </button>
+      </div>
+
     </div>
 
-    <main class="main-section">
-      <div class="left-container">
-        <div class="info">
-          <h2 class="hi">Hi</h2>
-          <h1 class="intro">I am <span id="name">Sannan Ahmad</span></h1>
-          <p class="para">Front-end Developer & Digital Marketer</p>
-
-          <div class="buttons">
-            <button class="Contact-button">Contact Me</button>
-            <button class="About-button">About Me</button>
+    <div class="content">
+      <main class="main-section">
+        <div class="left-container">
+          <div class="info">
+            <h2 class="hi">Hi</h2>
+            <h1 class="intro">I am <span id="name">Sannan Ahmad</span></h1>
+            <p class="para">Front-end Developer & Digital Marketer</p>
+  
+            <div class="buttons">
+              <button class="Contact-button">Contact Me</button>
+              <button class="About-button">About Me</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="right-container">
-        <div class="circle"></div>
-        <img src="./Images/whitebear.png" alt="Avatar" class="avatar-image" />
-      </div>
-    </main>
+        <div class="right-container">
+          <div class="circle"></div>
+          <img src="./Images/whitebear.png" alt="Avatar" class="avatar-image" />
+        </div>
+      </main>
+    </div>
+
 
     <div class="about">
       <div class="About-Section">
@@ -151,17 +163,128 @@
       <div class="contact-heading">
         <h1>Contact Me</h1>
       </div>
-  
-      <div class="contact-container">
-        <div class="contact-box">
-          <input type="email" placeholder="Email" class="placeholder">
-          <div class="contact-button-over">
-            Send
-          </div>
+      
+      <div class="contact-box">
+        <input type="email" placeholder="Email" class="placeholder">
+        <div class="contact-button-over">
+          Send
         </div>
       </div>
+      
 
     </div>
 
+    <div class="footer-container">
+      <footer class="footer">
+
+          <div class="footer-top">
+
+              <div class="comp-logo">
+                  <a class="logo-link" href="#">
+                      Sannan Ahmad
+                  </a>
+              </div>
+              <p class="filler-text"></p>
+              <div class="social">
+                      <a class="social-link" href="#">
+                          <img src="./images/instagram.svg" class="social-icon" />
+                      </a>
+                      <a class="social-link">
+                          <img src="./images/linkedin.svg" class="social-icon" />
+                      </a>
+                      <a class="social-link">
+                          <img src="./images/github.svg" class="social-icon" />
+                      </a>
+                      <a class="social-link">
+                          <img src="./images/twitter.svg" class="social-icon" />
+                      </a>
+              </div>
+          </div>
+
+          <div class="footer-grid">
+                      <!-- column 1 -->
+              <div class="footer-grid-column">
+                          <div class="footer-grid-heading">
+                              Products
+                          </div>
+                          <ul class="footer-links-list">
+                              <li>
+                                  <a href="#overview" class="footer-link">Overview</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Solutions</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Pricing</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Customers</a>
+                              </li>
+                          </ul>
+              </div>
+                      <!-- column 2 -->
+              <div class="footer-grid-column">
+                          <div class="footer-grid-heading">
+                              Company
+                          </div>
+                          <ul class="footer-links-list">
+                              <li>
+                                  <a href="#overview" class="footer-link">About</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Jobs</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Press</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Blog</a>
+                              </li>
+                          </ul>
+              </div>
+                      <!-- column 3 -->
+              <div class="footer-grid-column">
+                          <div class="footer-grid-heading">
+                              Support
+                          </div>
+                          <ul class="footer-links-list">
+                              <li>
+                                  <a href="#overview" class="footer-link">Contact</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Documentation</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Chat</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">FAQ</a>
+                              </li>
+                          </ul>
+              </div>
+                      <!-- column 4 -->
+              <div class="footer-grid-column">
+                          <div class="footer-grid-heading">
+                              Legal
+                          </div>
+                          <ul class="footer-links-list">
+                              <li>
+                                  <a href="#overview" class="footer-link">Terms of Service</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Privacy Policy</a>
+                              </li>
+                              <li>
+                                  <a href="#overview" class="footer-link">Cookie Settings</a>
+                              </li>
+                              
+                          </ul>
+              </div>
+          </div>
+      </footer>
+      <div class="footer-copyright">
+          © 2021 - Sannan Ahmad Portfolio. All rights reserved.
+      </div>
+  </div>
   </body>
 </html>
